@@ -11,4 +11,4 @@ for i in range (size):
         #print(i,(i+1))
         break
     else:
-        print("There is no reletable")
+        print("There is no relatable value")
