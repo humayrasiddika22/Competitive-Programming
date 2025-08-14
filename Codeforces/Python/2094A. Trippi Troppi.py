@@ -1,4 +1,4 @@
-# A. Trippi Troppi
+# 2094A. Trippi Troppi
 num =int(input())
 for i in range (num):
     strn=input()
