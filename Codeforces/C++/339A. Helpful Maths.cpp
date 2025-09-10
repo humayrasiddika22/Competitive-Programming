@@ -1,5 +1,5 @@
 // 339A. Helpful Maths
-
+ 
 #include <bits/stdc++.h>
 using namespace std;
 int main()

@@ -1,12 +1,11 @@
 // 236A. Boy or Girl
-
+ 
 #include<iostream>
 using namespace std;
 int main()
 {
     string name;
     int sum=0;
-    cout<<"Enter the user name: ";
     cin>>name;
     for(int i=0;i<name.size();i++)
     {

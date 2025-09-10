@@ -1,12 +1,11 @@
 // 263A. Beautiful Matrix
-
+ 
 #include<iostream>
 #include<math.h>
 using namespace std;
 int main()
 {
     int i,j,row,column,arr[5][5];
-    cout<<"Enter the elements of the matrix:"<<endl;
     for(i=0;i<5;i++)
     {
         for(j=0;j<5;j++)
@@ -25,6 +24,6 @@ int main()
             }
         }
     }
-    cout<<"\nThe minimum number of moves needed to make the matrix beautiful: "<<row+column<<endl;
+    cout<<row+column;
     return 0;
 }
