@@ -1,10 +1,13 @@
 # Fibonacci Between
 
-l=int(input())
-r=int(input())
-my_set=set()
-my_set.add(0)
-my_set.add(1)
-add=0
-for i in range (my_set[i]<r):
-    
+l,r=map(int,input().split())
+a=0
+b=1
+if l==0:
+    print(a)
+while b<=r:
+    result=a+b
+    a=b
+    b=result
+    if l <= result <= r:
+        print(result)
